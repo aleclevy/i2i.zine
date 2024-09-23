@@ -1,5 +1,5 @@
 title: 'Affiliates'
-email: aleclevy3@gmail.com
+email: i2izinelb@gmail.com
 timezone: UTC
 baseurl: '/affiliates-jekyll-theme'
 permalink: '/:title/'
@@ -25,7 +25,7 @@ social:
   instagram: https://www.instagram.com/i2i_zine/
   tiktok: https://www.tiktok.com/@i2izine
   twitter: https://x.com/i2izinelb?s=21&t=IyWmPntrRk2-Dw3DczwcrQ
-  
+
 # Plugins
 plugins:
   - jekyll-paginate
