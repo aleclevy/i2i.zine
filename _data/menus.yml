@@ -8,3 +8,6 @@ topmenu:
 
   - title: Submission
     url: 'submission/'
+
+  - title: Contact Us
+    url: 'contact/'
