@@ -9,5 +9,8 @@ topmenu:
   - title: Submission
     url: 'submission/'
 
+  - title: Blog
+    url: 'blog/'
+
   - title: Contact Us
     url: 'contact/'
