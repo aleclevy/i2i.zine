@@ -6,128 +6,167 @@ wide: true
 ---
 
 <style>
-    .people-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 2.5rem;
-        margin-top: 1.5rem;
-    }
-    .person-card {
-        text-align: center;
-    }
-    .person-card img {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-bottom: 1rem;
-    }
-    .person-card .placeholder-img {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        background: #e0e0e0;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 1rem;
-        font-size: 3rem;
-        color: #999;
-    }
-    .person-card h3 {
-        margin-bottom: 0.25rem;
-    }
-    .person-card .role {
-        font-weight: bold;
-        font-size: 0.85em;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        color: #007BFF;
-        margin-bottom: 0.75rem;
-    }
-    .person-card .bio {
-        font-size: 0.93em;
-        color: #444;
-        text-align: left;
-    }
-    .person-card .socials {
-        margin-top: 0.5rem;
-        font-size: 0.9em;
-        color: #666;
-    }
+  .people-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2.5rem;
+    margin-top: 1.5rem;
+  }
+  .person-card {
+    text-align: center;
+  }
+  .person-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .person-card .placeholder-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #999;
+  }
+  .person-card h3 {
+    margin-bottom: 0.25rem;
+  }
+  .person-card .role {
+    font-weight: bold;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #007bff;
+    margin-bottom: 0.75rem;
+  }
+  .person-card .bio {
+    font-size: 0.93em;
+    color: #444;
+    text-align: left;
+  }
+  .person-card .socials {
+    margin-top: 0.5rem;
+    font-size: 0.9em;
+    color: #666;
+  }
 </style>
 
 <div class="people-grid">
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/ELLIE.jpeg" alt="Ellie Kerns" />
+    <h3>Ellie Kerns</h3>
+    <div class="role">Founder &amp; Director</div>
+    <p class="bio">
+      Ellie Kerns is an organizer from Long Beach, CA who believes community action works best when it's backed by
+      artists. Driven by a desire to document queer spaces in the 21st century, Kerns founded i2i in an attempt to
+      immortalize the community of artists blossoming around them.
+    </p>
+    <div class="socials">@ellie.kerns</div>
+  </div>
 
-    <div class="person-card">
-        <img src="{{ site.baseurl }}/assets/images/people/ELLIE.jpeg" alt="Ellie Kerns">
-        <h3>Ellie Kerns</h3>
-        <div class="role">Founder &amp; Director</div>
-        <p class="bio">Ellie Kerns is an organizer from Long Beach, CA who believes community action works best when it's backed by artists. Driven by a desire to document queer spaces in the 21st century, Kerns founded i2i in an attempt to immortalize the community of artists blossoming around them.</p>
-        <div class="socials">@ellie.kerns</div>
-    </div>
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/noelle.png" alt="Noelle Averett" />
+    <h3>Noelle Averett</h3>
+    <div class="role">Co-Director</div>
+    <p class="bio">
+      Noelle Averett is a Long Beach-based visual artist working in drawing, sculpture, and quilting. She is deeply
+      passionate about collaboration, and utilizes her past experience in editorial illustration and public programming
+      to uplift her community's voices. Averett is also a founding member of Little A Collective.
+    </p>
+    <div class="socials">@ohnoelle &middot; noelleaverett.com</div>
+  </div>
 
-    <div class="person-card">
-        <img src="{{ site.baseurl }}/assets/images/people/noelle.png" alt="Noelle Averett">
-        <h3>Noelle Averett</h3>
-        <div class="role">Co-Director</div>
-        <p class="bio">Noelle Averett is a Long Beach-based visual artist working in drawing, sculpture, and quilting. She is deeply passionate about collaboration, and utilizes her past experience in editorial illustration and public programming to uplift her community's voices. Averett is also a founding member of Little A Collective.</p>
-        <div class="socials">@ohnoelle &middot; noelleaverett.com</div>
-    </div>
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/lena.jpeg" alt="Lena Zelenz" />
+    <h3>Lena Zelenz</h3>
+    <div class="role">Art Director</div>
+    <p class="bio">
+      Lena Zelenz is a Long Beach-based artist who recently graduated from CSULB with a degree in Studio Art. Drawing is
+      her primary focus, but she also works with paint, fiber, ceramics and more. She is inspired by the natural world
+      with an interest in biology and most loves to draw animals and plants.
+    </p>
+    <div class="socials">@mothgirlll</div>
+  </div>
 
-    <div class="person-card">
-        <div class="placeholder-img">&nbsp;</div>
-        <h3>Lena Zelenz</h3>
-        <div class="role">Art Director</div>
-        <p class="bio">Lena Zelenz is a Long Beach-based artist who recently graduated from CSULB with a degree in Studio Art. Drawing is her primary focus, but she also works with paint, fiber, ceramics and more. She is inspired by the natural world with an interest in biology and most loves to draw animals and plants.</p>
-        <div class="socials">@mothgirlll</div>
-    </div>
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/juniper.jpeg" alt="Juniper Bower" />
+    <h3>Juniper Bower</h3>
+    <div class="role">Director of Production</div>
+    <p class="bio">
+      Juniper Bower is an artist from LA County. She is best known for her contributions to the East LA music scene, her
+      current work as the guitarist of discR0t, and role as the event organizer for the Flophouse show series. Juniper
+      can also burp the alphabet.
+    </p>
+    <div class="socials">@junijunkmail &middot; @disc.r0t &middot; @pidgeisonline</div>
+  </div>
 
-    <div class="person-card">
-        <img src="{{ site.baseurl }}/assets/images/people/juniper.jpeg" alt="Juniper Bower">
-        <h3>Juniper Bower</h3>
-        <div class="role">Director of Production</div>
-        <p class="bio">Juniper Bower is an artist from LA County. She is best known for her contributions to the East LA music scene, her current work as the guitarist of discR0t, and role as the event organizer for the Flophouse show series. Juniper can also burp the alphabet.</p>
-        <div class="socials">@junijunkmail &middot; @disc.r0t &middot; @pidgeisonline</div>
-    </div>
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/isadore_garcia.jpeg" alt="Isadore Garcia" />
+    <h3>Isadore Garcia</h3>
+    <div class="role">Director of Marketing &amp; Merchandise</div>
+    <p class="bio">
+      Isadore Garcia is a multimedia artist who specializes in gothic design, leather gear, embroidery, handsewn
+      clothing &amp; bags, and lino &amp; screen prints.
+    </p>
+    <div class="socials">@customvampire</div>
+  </div>
 
-    <div class="person-card">
-        <img src="{{ site.baseurl }}/assets/images/people/isadore_garcia.jpeg" alt="Isadore Garcia">
-        <h3>Isadore Garcia</h3>
-        <div class="role">Director of Marketing &amp; Merchandise</div>
-        <p class="bio">Isadore Garcia is a multimedia artist who specializes in gothic design, leather gear, embroidery, handsewn clothing &amp; bags, and lino &amp; screen prints.</p>
-        <div class="socials">@customvampire</div>
-    </div>
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/sajah.jpeg" alt="Sajah Francesca" />
+    <h3>Sajah Francesca</h3>
+    <div class="role">Editorial Director</div>
+    <p class="bio">
+      Sajah Francesca is a poet from Long Beach, CA whose writing emphasizes queerness, surrealism, and nihilistic
+      optimism. They explore their artistic expression through the avenues of poetry, prose, and scriptwriting by
+      manipulating structure and blending high and low forms of language. They induce their writing with an equal
+      balance of darkness and whimsy, mirroring conflicting realities of the world, creating space for reflection, and
+      promoting the exploration of serenity through the analysis of the soul. Their writing indulges in satirical
+      criticism as a way to comment on society, government, social media, and other facets of life. Sajah Francesca's
+      debut poetry collection, titled "Nasty. Unpredictable. Nonsense." was published in June 2024 by Archway
+      Publishing. Additional publications include: just femme &amp; dandy- the Survive Ed., Contemporary Jo Issue IV,
+      The Shallot Vol. 2, Issue 1., i2i Zine Ed. 1 and Ed. 2.
+    </p>
+    <div class="socials">@sajahfrancesca</div>
+  </div>
 
-    <div class="person-card">
-        <img src="{{ site.baseurl }}/assets/images/people/sajah.jpeg" alt="Sajah Francesca">
-        <h3>Sajah Francesca</h3>
-        <div class="role">Editorial Director</div>
-        <p class="bio">Sajah Francesca is a poet from Long Beach, CA whose writing emphasizes queerness, surrealism, and nihilistic optimism. They explore their artistic expression through the avenues of poetry, prose, and scriptwriting by manipulating structure and blending high and low forms of language. They induce their writing with an equal balance of darkness and whimsy, mirroring conflicting realities of the world, creating space for reflection, and promoting the exploration of serenity through the analysis of the soul. Their writing indulges in satirical criticism as a way to comment on society, government, social media, and other facets of life. Sajah Francesca's debut poetry collection, titled "Nasty. Unpredictable. Nonsense." was published in June 2024 by Archway Publishing. Additional publications include: just femme &amp; dandy- the Survive Ed., Contemporary Jo Issue IV, The Shallot Vol. 2, Issue 1., i2i Zine Ed. 1 and Ed. 2.</p>
-        <div class="socials">@sajahfrancesca</div>
-    </div>
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/leonne.jpeg" alt="Leone Resurreccion" />
+    <h3>Leone Resurreccion</h3>
+    <div class="role">Design Consultant</div>
+    <p class="bio">
+      Leone Resurreccion is a multimedia artist living in Long Beach, CA known for fronting band discR0t, their
+      experience in indie publishing, event organizing for the Flophouse series, and their keen eye for art direction.
+    </p>
+    <div class="socials">@sealeonne &middot; @disc.r0t</div>
+  </div>
 
-    <div class="person-card">
-        <img src="{{ site.baseurl }}/assets/images/people/leonne.jpeg" alt="Leone Resurreccion">
-        <h3>Leone Resurreccion</h3>
-        <div class="role">Design Consultant</div>
-        <p class="bio">Leone Resurreccion is a multimedia artist living in Long Beach, CA known for fronting band discR0t, their experience in indie publishing, event organizing for the Flophouse series, and their keen eye for art direction.</p>
-        <div class="socials">@sealeonne &middot; @disc.r0t</div>
-    </div>
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/adam.JPG" alt="Adam Ruilova" />
+    <h3>Adam Ruilova</h3>
+    <div class="role">Event Coordinator</div>
+    <p class="bio">
+      Adam Ruilova is an organizer from Long Beach, CA known for his experience in community organizing, event planning,
+      and presence in the LA ballroom scene. He is a member of the West Coast chapter of the House of Icon. He has been
+      an associate of i2i since its inception in 2024.
+    </p>
+    <div class="socials">@adamruilova</div>
+  </div>
 
-    <div class="person-card">
-        <div class="placeholder-img">&nbsp;</div>
-        <h3>Adam Ruilova</h3>
-        <div class="role">Event Coordinator</div>
-        <p class="bio">Adam Ruilova is an organizer from Long Beach, CA known for his experience in community organizing, event planning, and presence in the LA ballroom scene. He is a member of the West Coast chapter of the House of Icon. He has been an associate of i2i since its inception in 2024.</p>
-        <div class="socials">@adamruilova</div>
-    </div>
-
-    <div class="person-card">
-        <div class="placeholder-img">&nbsp;</div>
-        <h3>Alec Levy</h3>
-        <div class="role">Web Developer</div>
-        <p class="bio"></p>
-    </div>
-
+  <div class="person-card">
+    <img src="{{ site.baseurl }}/assets/images/people/alec.JPG" alt="Alec Levy" />
+    <h3>Alec Levy</h3>
+    <div class="role">Technology Coordinator</div>
+    <p class="bio">
+      Alec Levy is a software developer from Long Beach, CA, currently studying in Santa Cruz, CA at the University of
+      California, Santa Cruz. His work centers around the development of sustainable environmental technologies for
+      agriculture, and he is passionate about sustainable design.
+    </p>
+    <div class="socials">@alec.levy_</div>
+  </div>
 </div>
