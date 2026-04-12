@@ -9,7 +9,7 @@ layout: default
 {% endif %}
 <!-- End Featured Image -->
 
-<div class="col-lg-8 mx-auto">
+<div class="{% if page.wide %}col-lg-12{% else %}col-lg-8{% endif %} mx-auto">
 
   <div class="mainheading">
     <h1 class="posttitle">{{ page.title }}</h1>

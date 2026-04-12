@@ -12,5 +12,8 @@ topmenu:
   - title: Blog
     url: 'blog/'
 
+  - title: People
+    url: 'people/'
+
   - title: Contact Us
     url: 'contact/'
