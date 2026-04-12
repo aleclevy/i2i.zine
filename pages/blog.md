@@ -12,17 +12,6 @@ Our most recent fundraiser was a benefit concert held at Toxic Toast Records in 
 
 <a href="https://heyzine.com/flip-book/0572ea615a.html" target="_blank" class="btn btn-primary mb-3">Flip through the zine</a>
 
-<div class="event-photos row mb-4">
-  <div class="col-md-4 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/hands_zoya.jpeg" alt="Zoya Ray & Friends event" class="img-fluid rounded">
-  </div>
-  <!-- Add more event photos here:
-  <div class="col-md-4 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/YOUR_PHOTO.jpg" alt="Zoya Ray & Friends" class="img-fluid rounded">
-  </div>
-  -->
-</div>
-
 ---
 
 ## UNSILENCED: The TTI Issue
