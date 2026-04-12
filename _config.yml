@@ -1,7 +1,6 @@
-title: 'Affiliates'
+title: 'i2i zine'
 email: i2izinelb@gmail.com
 timezone: UTC
-baseurl: '/affiliates-jekyll-theme'
 permalink: '/:title/'
 logo: 'assets/images/logo.ico'
 favicon: 'assets/images/logo.ico'
