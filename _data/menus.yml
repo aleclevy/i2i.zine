@@ -15,5 +15,8 @@ topmenu:
   - title: People
     url: 'people/'
 
+  - title: Donate
+    url: 'donate/'
+
   - title: Contact Us
     url: 'contact/'
